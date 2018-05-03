@@ -56,7 +56,7 @@ app.get("/about", (req, res)=>{
 	});
 });
 
-app.get("projects", (req, res)=>{
+app.get("/projects", (req, res)=>{
 	res.render("projects", {
 		pageTitle: "Projects",
 		welcomeMessage: "Portfolio page here"
